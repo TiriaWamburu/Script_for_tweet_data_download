@@ -68,5 +68,5 @@ def toDataFrame(tweets):
 DataSet1 = toDataFrame(results)
 print(DataSet1.head())
 def save():
-    DataSet1.to_csv("C:/Users/musa/Desktop/kot.csv")
+    DataSet1.to_csv("/home/twitter_data_stats/kot.csv")
 save()
